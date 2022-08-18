@@ -1,0 +1,11 @@
+﻿@page
+@model WebApplication24.Pages.ExchangeModel
+@{
+    ViewData["Title"] = "Обмін валют";
+}
+
+<h2>@Model.Message</h2>
+<form method="post">
+    <input type="number" name="sum" />
+    <input type="submit" value="Send" />
+</form>
